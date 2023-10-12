@@ -1,8 +1,21 @@
-Título de la Aplicación: Blog Connect
 
-Problemática Abordada: Dispersión de Información en Estudiantes de Ingeniería de Software
+## Título de la Aplicación: 
+<h1 align="center"> Blog Connect</h1>
 
-Solución Proporcionada:
+## Tabla de contenidos:
+[Problemática]
+[Solución]
+[Herramientas Utilizadas]
+[Diagrama de Entidad-Relación]
+[Diagrama de Secuencia]
+[Casos de Uso]
+[Base de datos]
+
+
+## Problemática: 
+Dispersión de Información en Estudiantes de Ingeniería de Software
+
+## Solución :
 
 En el mundo de la Ingeniería de Software, la adquisición y el intercambio de información relevante son fundamentales para el crecimiento y el éxito de los estudiantes y profesionales en este campo. Sin embargo, con la creciente cantidad de recursos disponibles en línea, surge la problemática de la dispersión de información. La información vital se encuentra en diversos lugares, lo que dificulta su localización y acceso eficientes.
 
@@ -21,3 +34,8 @@ Búsqueda Eficaz de Contenido: La plataforma ofrece una funcionalidad de búsque
 Colaboración entre Compañeros: Los estudiantes pueden colaborar y contribuir al crecimiento de la base de conocimiento en el campo de la Ingeniería de Software. La plataforma fomenta la colaboración entre compañeros.
 
 "Blog Connect" se erige como un recurso esencial para estudiantes, profesionales y entusiastas de la Ingeniería de Software. Proporciona una solución efectiva a la problemática de la dispersión de información al reunir a la comunidad en un solo lugar donde pueden aprender, compartir y crecer juntos en su comprensión de este campo en constante evolución.
+## Herramientas Utilizadas
+## Diagrama de Entidad-Relación
+## Diagrama de Secuencia
+## Casos de Uso
+## Base de Datos
