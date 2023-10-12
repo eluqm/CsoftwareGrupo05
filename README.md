@@ -33,6 +33,56 @@ Búsqueda Eficaz de Contenido: La plataforma ofrece una funcionalidad de búsque
 Colaboración entre Compañeros: Los estudiantes pueden colaborar y contribuir al crecimiento de la base de conocimiento en el campo de la Ingeniería de Software. La plataforma fomenta la colaboración entre compañeros.
 
 "Blog Connect" se erige como un recurso esencial para estudiantes, profesionales y entusiastas de la Ingeniería de Software. Proporciona una solución efectiva a la problemática de la dispersión de información al reunir a la comunidad en un solo lugar donde pueden aprender, compartir y crecer juntos en su comprensión de este campo en constante evolución.
+## Requisitos:
+
+Registro de usuarios:
+  Permite a los usuarios registrarse en la aplicación web con un nombre de usuario y una dirección de correo electrónico.
+  Proporciona opciones de inicio de sesión con redes sociales (por ejemplo, Facebook, Google) si es necesario.
+  
+Gestión de perfiles de usuario:
+  Permite a los usuarios crear y editar sus perfiles con información personal.
+  Ofrece la opción de subir una foto de perfil.
+  
+Creación y publicación de entradas:
+  Permite a los usuarios crear, editar y eliminar publicaciones de blog.
+  Proporciona un editor de texto enriquecido para formatear contenido.
+  Permite la inclusión de imágenes y otros medios en las publicaciones.
+  Permite a los usuarios categorizar sus publicaciones en diferentes temas o etiquetas.
+  
+Comentarios:
+  Permite a los usuarios comentar en las publicaciones de otros usuarios.
+  Proporciona moderación de comentarios para el propietario del blog.
+  
+Búsqueda y navegación:
+  Ofrece una función de búsqueda para buscar publicaciones por palabras clave, categorías o etiquetas.
+  Proporciona una interfaz de navegación que muestra las publicaciones más recientes, populares o relacionadas.
+  
+Interacción social:
+
+  Permite a los usuarios seguir a otros bloggers y recibir actualizaciones de sus publicaciones.
+  Ofrece la opción de dar "Me gusta" o calificar las publicaciones.
+  Proporciona un feed de actividad que muestra las interacciones de los usuarios.
+  
+Administración de contenido:
+
+  Ofrece un panel de administración para que los administradores del sitio gestionen usuarios, publicaciones y comentarios.
+  Permite a los administradores bloquear o suspender usuarios en caso de comportamiento inapropiado.
+  
+Estadísticas y análisis:
+
+  Proporciona a los usuarios información sobre el rendimiento de sus publicaciones, como vistas, clics y comentarios.
+  Ofrece estadísticas generales sobre el tráfico del sitio.
+  
+Optimización para SEO:
+
+Permite a los usuarios personalizar metadatos, como títulos y descripciones, para mejorar la visibilidad en los motores de búsqueda.
+
+Seguridad:
+  Implementa medidas de seguridad, como autenticación segura.
+  
+Personalización:
+  Permite a los usuarios personalizar la apariencia de sus blogs, como colores, fuentes y diseño.
+
 ## Herramientas Utilizadas
 Next.js: Utilizado como el marco de desarrollo para crear la aplicación web.
 
