@@ -3,13 +3,16 @@
 <h1 align="center"> Blog Connect</h1>
 
 ## Tabla de contenidos:
-- [Problemática]
-- [Solución]
-- [Herramientas Utilizadas]
-- [Diagrama de Entidad-Relación]
-- [Diagrama de Secuencia]
-- [Casos de Uso]
-- [Base de datos]
+- [Badges o escudos](#badges-o-escudos)
+- [Descripción y contexto](#descripción-y-contexto)
+- [Guía de usuario](#guía-de-usuario)
+- [Guía de instalación](#guía-de-instalación)
+- [Cómo contribuir](#cómo-contribuir)
+- [Código de conducta](#código-de-conducta)
+- [Autor/es](#autores)
+- [Información adicional](#información-adicional)
+- [Licencia](#licencia)
+- [Limitación de responsabilidades - Solo BID](#limitación-de-responsabilidades)
 
 
 ## Problemática: 
