@@ -5,6 +5,7 @@
 ## Tabla de contenidos:
 - [Problemática]
 - [Solución]
+- [Requisitos]
 - [Herramientas Utilizadas]
 - [Diagrama de Entidad-Relación]
 - [Diagrama de Secuencia]
