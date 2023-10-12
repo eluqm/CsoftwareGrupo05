@@ -34,6 +34,20 @@ Colaboración entre Compañeros: Los estudiantes pueden colaborar y contribuir a
 
 "Blog Connect" se erige como un recurso esencial para estudiantes, profesionales y entusiastas de la Ingeniería de Software. Proporciona una solución efectiva a la problemática de la dispersión de información al reunir a la comunidad en un solo lugar donde pueden aprender, compartir y crecer juntos en su comprensión de este campo en constante evolución.
 ## Herramientas Utilizadas
+Next.js: Utilizado como el marco de desarrollo para crear la aplicación web.
+
+MongoDB: Usado como la base de datos para almacenar los datos del blog.
+
+Prisma: Parece ser una herramienta relacionada con la base de datos, posiblemente utilizada para definir y gestionar modelos de datos.
+
+Local Storage: Utilizado para almacenar datos localmente en el navegador del usuario.
+
+NextAuth: Posiblemente utilizado para gestionar la autenticación de usuarios en la aplicación.
+
+SWR: Esta es una biblioteca de React que podría utilizarse para la gestión de datos en tiempo real y la recuperación de datos del servidor.
+
+Node.js: Mencionado en el contexto de configurar un servidor web en Hostinger.
+
 ## Diagrama de Entidad-Relación
 ## Diagrama de Secuencia
 ## Casos de Uso
