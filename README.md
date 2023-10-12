@@ -3,13 +3,13 @@
 <h1 align="center"> Blog Connect</h1>
 
 ## Tabla de contenidos:
-[Problemática]
-[Solución]
-[Herramientas Utilizadas]
-[Diagrama de Entidad-Relación]
-[Diagrama de Secuencia]
-[Casos de Uso]
-[Base de datos]
+- [Problemática]
+- [Solución]
+- [Herramientas Utilizadas]
+- [Diagrama de Entidad-Relación]
+- [Diagrama de Secuencia]
+- [Casos de Uso]
+- [Base de datos]
 
 
 ## Problemática: 
