@@ -59,5 +59,77 @@ Tabla post: La tabla post se utiliza para almacenar información sobre las publi
 Tabla comment: Aquí se almacenan los comentarios realizados en las publicaciones. Cada comentario tiene un identificador único (_id) como clave primaria, una descripción (desc) del comentario, la dirección de correo electrónico del usuario que lo escribió (userEmail) y el identificador único de tipo slug de la publicación a la que se refiere (postSlug). Al igual que en la tabla de post, las relaciones entre esta tabla y las tablas user y post se establecen a través de las claves foráneas (userEmail y postSlug), que hacen referencia a las tablas user y post, respectivamente.
 
 ## Diagrama de Secuencia
+![](https://github.com/eluqm/CsoftwareGrupo05/blob/main/SECUENCIA.png)
+
+Actor Usuario: Representa al usuario que interactúa con la aplicación "BLOG CONNECT".
+
+Participante "BLOG CONNECT" (BlogConnect): Representa la aplicación "BLOG CONNECT", que es la interfaz con la que el usuario interactúa.
+
+Participante "Base de Datos" (Database): Representa la base de datos MongoDB, donde se almacenan los datos relacionados con las publicaciones y los comentarios.
+
+A continuación, se detalla la secuencia de interacciones:
+
+Paso 1: Acceso a "BLOG CONNECT"
+
+El usuario inicia la interacción accediendo a la aplicación "BLOG CONNECT".
+Paso 2: Iniciar Sesión con Google
+
+El usuario selecciona la opción "Iniciar sesión con Google" en la aplicación.
+La aplicación "BLOG CONNECT" inicia el proceso de autenticación con Google.
+Paso 3: Autorización de Google
+
+El usuario confirma la autorización de Google, lo que le permite acceder a la aplicación.
+Paso 4: Crear una Nueva Publicación
+
+El usuario crea una nueva publicación en la aplicación "BLOG CONNECT".
+La aplicación "BLOG CONNECT" solicita almacenar la publicación en la base de datos (representada por la flecha hacia "Base de Datos").
+La base de datos confirma el almacenamiento (representado por la flecha desde "Base de Datos").
+Paso 5: Publicar la Publicación
+
+El usuario publica la publicación en la aplicación.
+La aplicación "BLOG CONNECT" confirma la publicación al usuario.
+Paso 6: Leer una Publicación
+
+El usuario accede a una publicación existente en la aplicación "BLOG CONNECT".
+Paso 7: Escribir un Comentario
+
+El usuario escribe un comentario en la publicación.
+La aplicación "BLOG CONNECT" solicita almacenar el comentario en la base de datos (representada por la flecha hacia "Base de Datos").
+La base de datos confirma el almacenamiento (representada por la flecha desde "Base de Datos").
+Paso 8: Publicar el Comentario
+
+El usuario publica el comentario en la aplicación.
+La aplicación "BLOG CONNECT" confirma la publicación del comentario al usuario.
+Este diagrama representa la secuencia de interacciones entre el usuario, la aplicación "BLOG CONNECT" y la base de datos MongoDB para el proceso de inicio de sesión, creación de publicaciones y comentarios en la página "BLOG CONNECT". Las flechas indican la dirección de las interacciones y las confirmaciones de almacenamiento en la base de datos. Cada paso refleja una acción específica realizada por el usuario o la aplicación en el proceso.
 ## Casos de Uso
+![](https://github.com/eluqm/CsoftwareGrupo05/blob/main/Casos%20de%20Uso.png)
+
+Usuario (User): Este actor representa a los usuarios de la aplicación "BLOG CONNECT". Los usuarios son las personas que utilizan la aplicación para realizar diversas acciones.
+
+Iniciar Sesión con Google (GoogleSignIn): Este caso de uso representa la funcionalidad que permite a los usuarios iniciar sesión en la aplicación utilizando sus cuentas de Google. Los usuarios pueden autenticarse de manera segura a través de Google.
+
+Crea una Publicación (CreatePost): Este caso de uso representa la funcionalidad que permite a los usuarios crear y publicar nuevas publicaciones en la página "BLOG CONNECT". Los usuarios pueden compartir sus pensamientos, historias o contenido a través de esta función.
+
+Lee una Publicación (ReadPost): Este caso de uso representa la funcionalidad que permite a los usuarios acceder y leer las publicaciones existentes en la aplicación. Los usuarios pueden explorar y obtener información de las publicaciones creadas por otros usuarios.
+
+Escribe un Comentario (WriteComment): Este caso de uso representa la funcionalidad que permite a los usuarios escribir y publicar comentarios en una publicación. Los usuarios pueden participar en discusiones, expresar opiniones o interactuar con otros usuarios a través de esta función.
+
+Las relaciones entre los actores y los casos de uso se explican de la siguiente manera:
+
+Usuario (User):
+
+Interactúa con todas las funcionalidades de la aplicación, incluyendo la posibilidad de iniciar sesión con Google, crear publicaciones, leer publicaciones y escribir comentarios.
+Iniciar Sesión con Google (GoogleSignIn):
+
+Permite a los usuarios autenticarse de manera segura a través de sus cuentas de Google. Es una acción que el usuario puede realizar al principio de su interacción con la aplicación.
+Crea una Publicación (CreatePost):
+
+Permite a los usuarios crear y publicar nuevas publicaciones. Es una función que los usuarios pueden utilizar para compartir su contenido.
+Lee una Publicación (ReadPost):
+
+Permite a los usuarios acceder y leer las publicaciones existentes. Los usuarios pueden consumir contenido de otros usuarios a través de esta función.
+Escribe un Comentario (WriteComment):
+
+Permite a los usuarios escribir y publicar comentarios en las publicaciones. Esta función fomenta la interacción y la participación de los usuarios en la comunidad.
+Espero que esta explicación detallada te ayude a comprender mejor cómo interactúan los actores con las diferentes funcionalidades de la aplicación "BLOG CONNECT". Puedes utilizar este diagrama como una referencia para diseñar y desarrollar la aplicación de acuerdo con estos casos de uso.
 ## Base de Datos
